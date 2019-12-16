@@ -10,8 +10,14 @@
 ../mega_databases/nombredb.json
 ```
 ## Instalacion
-```js
+```
 npm install megadb
+```
+#### Constructores
+```js
+const megadb = require('megadb')
+
+megadb.crearDB("nombre_de_la_db")
 ```
 ## Metodos
 ```
