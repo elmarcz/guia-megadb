@@ -1,9 +1,3 @@
-# Guia realizada por Sergio.
-> Discord tag: sergiodiscord#1032
-
-> [Discord Server](https://discord.gg/Sz2kytD)
-
-
 # Guia de megaDB
 ### ¿Que es megadb?
 > megadb es una database JSON facil de usar y comprender, y lo mas importante esque esta en **ESPAÑOL**. (Lo cual facilita mucho las cosas)
@@ -45,3 +39,9 @@ setIndex
 delIndex
 convert_megadtbs
 ```
+## Guia realizada por Sergio.
+> Discord tag: sergiodiscord#1032
+
+> [Discord Server](https://discord.gg/Sz2kytD)
+
+> Si desea tener un soporte mas especifico, o incluso si desea incluir algo o proporcionar una idea contacteme.
