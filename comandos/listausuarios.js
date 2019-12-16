@@ -7,7 +7,7 @@ const usuarios_db = new megadb.crearDB("usuarios") //Requerimos la misma databas
     //Ahora la palabra 'key' es el nombre principal del JSON ej:
     //Este seria la database en JSON
     //{
-  //"478572042384572424": { //Esto es key siempre, los demas subdatos son v = valor, si requerimos uno ponemos 'v.discord_nombre' porque le pusimos 'discord_nombre'
+  //"473901560179589120": { //Esto es key siempre, los demas subdatos son v = valor, si requerimos uno ponemos 'v.discord_nombre' porque le pusimos 'discord_nombre'
     //"discord_nombre": "sergiodiscord#1032",
     //"discord_servidor": "Sergio's Project"
   //}
