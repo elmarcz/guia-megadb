@@ -1,9 +1,19 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const tokens = require('./tokens.json');
+const tokens = {
+"token": "La token de tu bot",
+"prefix": "tu prefix"
+};
+
+
 const megadb = require('megadb')
 const fs = require('fs')
-//empezamos handler
+
+
+
+
+
+//Este es un Handler Command basico, no tiene revelancia al codigo puedes usar el tuyo propio.
 client.commands = new Discord.Collection();
 
 fs.readdir("./comandos/", (err, files) => {
@@ -21,14 +31,14 @@ fs.readdir("./comandos/", (err, files) => {
 });
 
 
-//empezamos con los eventos
+//Aqui se ven los eventos utilizados, aunque no tienen revelancia al codigo de la db.
 client.on('ready', () => {
   client.user.setActivity("Usando MegaDB :)", {url: "https://www.twitch.tv"});
   console.log(`Estoy listo!`);
 });
 
 client.on('message', async message=> {
-
+//Este contenido es para el handler. ES IMPRESCINDIBLE SI LO VAS A USAR!!
   if (message.author.bot) return;
     if (message.content.indexOf(tokens.prefix) !== 0) return;
     const args = message.content.slice(tokens.prefix.length).trim().split(/ +/g);
