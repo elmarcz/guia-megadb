@@ -52,7 +52,7 @@ client.on('message', async message=> {
     const args = message.content.slice(tokens.prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
     const cmd = client.commands.get(command);
-    if (!cmd) return message.reply("error al introducir el comando..."); // Si e comando introducido no existe retorna al mensaje y no se ejecuta nada.
+    if (!cmd) return message.reply("error al introducir el comando..."); // Si e comando introducido no existe retorna al mensaje.
     cmd.run(client, message, args);
 
 
