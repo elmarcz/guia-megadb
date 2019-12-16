@@ -1,13 +1,13 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
+const Discord = require('discord.js'); //npm i discord.js --save para tener la libreria de discord.js
+const client = new Discord.Client(); // Creamos el client
 const tokens = {
 "token": "La token de tu bot",
 "prefix": "tu prefix"
-};
+}; //Puedes usar un archivo externo './config.json' por ejemplo y exportar tus archivos
 
 
-const megadb = require('megadb')
-const fs = require('fs')
+const megadb = require('megadb') // La database en JSON que vamos a aprender
+const fs = require('fs') // npm i fs --save fs se usa para leer archivos para el handler
 
 
 
@@ -44,7 +44,7 @@ client.on('message', async message=> {
     const args = message.content.slice(tokens.prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
     const cmd = client.commands.get(command);
-    if (!cmd) return message.reply("error al introducir el comando...");
+    if (!cmd) return message.reply("error al introducir el comando..."); // Si e comando introducido no existe retorna al mensaje y no se ejecuta nada.
     cmd.run(client, message, args);
 
 
