@@ -14,6 +14,14 @@ const fs = require('fs') // npm i fs --save fs se usa para leer archivos para el
 
 
 //Este es un Handler Command basico, no tiene revelancia al codigo puedes usar el tuyo propio.
+
+// El handler es una opcion, tambien se puede usar con switch(args[0]) {
+// case 'comando':
+// codigo
+// break;
+// } o if(command === 'comando') {
+//codigo
+//} // Todo esto en el evento mensaje si lo deseas usar
 client.commands = new Discord.Collection();
 
 fs.readdir("./comandos/", (err, files) => {
