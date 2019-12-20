@@ -2,7 +2,7 @@
 
 ### Topicos
 
-> [Agregar, ver y eliminar usuarios de una lista.](comandos/usuarios.js)
+> [Agregar, ver y eliminar usuarios de una lista.](comandos/usuario.js)
 
 ### ¿Que es megadb?
 > megadb es una database JSON facil de usar y comprender, y lo mas importante esque esta en **ESPAÑOL**. (Lo cual facilita mucho las cosas)
