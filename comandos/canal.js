@@ -32,5 +32,4 @@ if(args[0] === 'probar') { // Se puede probar el mensaje que ponemos en el canal
     if(!canal_guardado) return;
     canal_guardado.send('Hola, este canal ha sido guardado y estoy enviando mensaje solo aqui con el comando.') 
 };
-
 }
