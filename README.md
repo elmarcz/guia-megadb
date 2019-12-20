@@ -3,6 +3,7 @@
 ### Topicos
 
 > [Agregar, ver y eliminar usuarios de una lista.](comandos/usuario.js)
+> [Establecer canal y enviar un mensaje solo a ese canal](comandos/canal.js)
 
 ### ¿Que es megadb?
 > megadb es una database JSON facil de usar y comprender, y lo mas importante esque esta en **ESPAÑOL**. (Lo cual facilita mucho las cosas)
