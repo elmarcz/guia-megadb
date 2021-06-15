@@ -27,6 +27,8 @@ npm install megadb
 const megadb = require('megadb')
 
 megadb.crearDB("nombre_de_la_db")
+
+megadb.crearDB("nombre_de_la_db", "nombre_de_la_subcarpeta")
 ```
 ## Metodos
 ```
