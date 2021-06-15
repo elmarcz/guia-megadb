@@ -56,9 +56,11 @@ setIndex
 delIndex
 convert_megadtbs
 ```
-## Guia realizada por Sergio.
+## 👤 Guia realizada por Sergio.
+ Si esta guía te ha ayudado hazmelo saber. Y me alegro que te haya ayudado.
+  
 > Discord tag: twenifive#1111
 
 > [Discord Server](https://discord.gg/tCYAPYbK3x)
 
-> Si desea tener un soporte mas especifico, o incluso si desea incluir algo o proporcionar una idea contacteme.
+> Si me pudieras apoyar dando una estrella al documento te lo agradecería. ⭐ 
